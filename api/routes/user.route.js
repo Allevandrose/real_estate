@@ -3,8 +3,6 @@ import { test } from "../controllers/user.controller.js";
 
 const router = express.Router();
 
-app.get("/test", test);
-
-app.delete("/test", test);
+router.get("/test", test);
 
 export default router;
